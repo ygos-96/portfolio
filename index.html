@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ygor Gomes da Silva - Desenvolvedor Frontend</title>
+        <link
+            rel="shortcut icon"
+            href="src/imagens/favicon-32x32.png"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="src/css/font-awesome.css" />
+        <link rel="stylesheet" href="src/css/reset.css" />
+
+        <!-- Global -->
+        <link rel="stylesheet" href="src/css/globais.css" />
+        <link rel="stylesheet" href="src/css/variaveis.css" />
+        <link rel="stylesheet" href="src/css/secoes/header.css" />
+        <link rel="stylesheet" href="src/css/secoes/home.css" />
+        <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+        <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+        <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+        <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+        />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div
+                    class="row justify-content-between alinhar-itens-no-centro"
+                >
+                    <a href="#">
+                        <i class="fas fa-code logo"></i>
+                    </a>
+                    <nav>
+                        <input id="menu-hamburguer" type="checkbox" />
+
+                        <label for="menu-hamburguer">
+                            <div class="menu">
+                                <span class="hamburguer"></span>
+                            </div>
+                        </label>
+                        <ul>
+                            <li><a href="#sobre-mim">Sobre mim</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#projetos">Meus projetos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="container">
+                <div class="row full-screen alinhar-itens-no-centro">
+                    <div class="texto-home">
+                        <p>Olá 🖖,</p>
+                        <h1>Sou o Ygor</h1>
+                        <h2>Desenvolvedor Frontend</h2>
+
+                        <div class="redes-sociais">
+                            <a
+                                href="https://www.linkedin.com/in/ygor-gs2006/"
+                                target="_blank"
+                                class="outer-shadow"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a href="#" class="outer-shadow"
+                                ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                                href="https://github.com/ygos-96"
+                                target="_blank"
+                                class="outer-shadow"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                            <a href="#" class="outer-shadow"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="icon-home">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre-mim section" id="sobre-mim">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Sobre mim</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="imagem-sobre-mim">
+                        <div class="img-box inner-shadow">
+                            <img
+                                src="src/imagens/mim.png"
+                                alt="foto sobre mim"
+                                class="outer-shadow"
+                            />
+                        </div>
+                    </div>
+                    <div class="informacoes-sobre-mim">
+                        <p>
+                            <strong
+                                >Olá! Me chamo Ygor Gomes e sou um desenvolvedor
+                                frontend em formação!</strong
+                            >
+                            Gosto MUITO da área de tecnologia, e tenho certeza
+                            que posso contribuir em qualquer time com as minhas
+                            habilidades.
+                        </p>
+
+                        <p>
+                            Estou sempre me desafiando com novos projetos e
+                            participando de comunidades de programação para
+                            buscar feedback de outros desenvolvedores e
+                            desenvolvedoras. Além de tentar ajudar essas pessoas
+                            com o que eu já aprendi. 😁
+                        </p>
+
+                        <p>
+                            Ah, gosto muito de futebol, de jogos eletrônicos,
+                            filmes, séries, animes e outras nerdices. 🤓
+                        </p>
+
+                        <div class="botoes">
+                            <a
+                                target="_blank"
+                                href="/src/arquivos/curriculo.pdf"
+                                class="botao outer-shadow"
+                                >Veja meu CV</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="habilidades section" id="habilidades">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Habilidades</h2>
+                    </div>
+                </div>
+
+                <div class="container-habilidades">
+                    <div class="informacoes javascript">
+                        <div class="logo">
+                            <i
+                                class="devicon devicon-javascript-plain"
+                                id="javascript"
+                            ></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            JavaScript é uma linguagem de script orientada a
+                            objetos, multiplataforma. É uma linguagem pequena e
+                            leve. Dentro de um ambiente de host (por exemplo, um
+                            navegador web) o JavaScript pode ser ligado aos
+                            objetos deste ambiente para prover um controle
+                            programático sobre eles.
+                        </p>
+                    </div>
+
+                    <div class="informacoes html">
+                        <div class="logo">
+                            <i
+                                class="devicon devicon-html5-plain-wordmark"
+                                id="html"
+                            ></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>
+                            O HTML é a principal linguagem de programação
+                            encontrada na internet. Cada página HTML tem uma
+                            série de elementos que cria a estrutura dos
+                            conteúdos de uma página ou de um aplicativo.
+                        </p>
+                    </div>
+
+                    <div class="informacoes css">
+                        <div class="logo">
+                            <i
+                                class="devicon devicon-css3-plain-wordmark"
+                                id="css"
+                            ></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>
+                            CSS é a sigla para Cascading Style Sheets, ou seja,
+                            Folhas de Estilo em Cascatas. É uma maneira de dar
+                            estilo ao código criado por linguagens como HTML,
+                            XML ou XHTML, por exemplo. De forma prática, ela
+                            funciona como uma camada de personalização ao
+                            conteúdo visível.
+                        </p>
+                    </div>
+
+                    <div class="informacoes github">
+                        <div class="logo">
+                            <i
+                                class="devicon devicon-github-original"
+                                id="github"
+                            ></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>
+                            GitHub é um serviço de hospedagem baseado na web
+                            para repositórios Git, como os usados para armazenar
+                            conteúdo do Microsoft Learn . Em qualquer projeto, o
+                            GitHub aloja o repositório principal, do qual os
+                            contribuidores podem fazer cópias para trabalharem.
+                        </p>
+                    </div>
+
+                    <div class="informacoes git">
+                        <div class="logo">
+                            <i class="devicon devicon-git-plain" id="git"></i>
+                        </div>
+                        <h3>Git</h3>
+                        <p>
+                            O Git é um sistema de controle de versões de código
+                            aberto. Facilita a colaboração em projetos através
+                            de um controle de versões distribuído por arquivos
+                            que residem nos repositórios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos section" id="projetos">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Meus projetos</h2>
+                    </div>
+                </div>
+
+                <div class="container-projetos">
+                    <div class="projeto">
+                        <a
+                            href="https://ygos-96.github.io/jogo-do-mario/"
+                            target="_blank"
+                        >
+                            <img
+                                src="src/imagens/mario.jpg"
+                                alt="Nome do projeto"
+                            />
+                            <h3>Mario Jump</h3>
+                            <div class="informacoes-projeto">
+                                <p>
+                                    Jogo simples do personagem Mario Bros.
+                                    Projeto feito usando HTML, CSS e JavaScript
+                                </p>
+                                <p>🔗 Ver no GitHub Pages</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projeto">
+                        <a
+                            href="https://ygos-96.github.io/agencia-xyz/"
+                            target="_blank"
+                        >
+                            <img
+                                src="src/imagens/landing.jpeg"
+                                alt="Nome do projeto"
+                            />
+                            <h3>Agência Xyz</h3>
+                            <div class="informacoes-projeto">
+                                <p>
+                                    Landing Page responsiva, feito com HTML e
+                                    CSS
+                                </p>
+                                <p>🔗 Ver no GitHub Pages</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projeto">
+                        <a
+                            href="https://ygos-96.github.io/projeto-slider-pokemon/"
+                            target="_blank"
+                        >
+                            <img
+                                src="src/imagens/pokemon.jpg"
+                                alt="Nome do projeto"
+                            />
+                            <h3>Cards Pokemon</h3>
+                            <div class="informacoes-projeto">
+                                <p>
+                                    Cards de pokemon selecionaveis, projeto
+                                    desenvolvido com HTML, CSS e JavaScript
+                                </p>
+                                <p>🔗 Ver no GitHub Pages</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projeto">
+                        <a
+                            href="https://ygos-96.github.io/card-perfil/"
+                            target="_blank"
+                        >
+                            <img
+                                src="src/imagens/perfil.jpg"
+                                alt="Nome do projeto"
+                            />
+                            <h3>Card Perfil</h3>
+                            <div class="informacoes-projeto">
+                                <p>
+                                    Projeto que mostra informações e o perfil,
+                                    feito com HTML e CSS
+                                </p>
+                                <p>🔗 Ver no GitHub Pages</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <h2>Me envie uma mensagem!</h2>
+                <div class="redes-sociais">
+                    <a
+                        href="https://www.linkedin.com/in/ygor-gs2006/"
+                        target="_blank"
+                        class="outer-shadow"
+                        ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a
+                        href="https://wa.me/11961802437"
+                        target="_blank"
+                        class="outer-shadow"
+                        ><i class="fab fa-whatsapp"></i
+                    ></a>
+                    <a
+                        href="https://github.com/ygos-96"
+                        target="_blank"
+                        class="outer-shadow"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        href="https://instagram.com/yg0rg_"
+                        target="_blank"
+                        class="outer-shadow"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./src/Js/index.js"></script>
+    </body>
+</html>
