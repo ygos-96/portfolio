@@ -19,7 +19,7 @@ header .logo {
 
 .header .logo:hover {
     color: var(--cor-secundaria);
-    font-size: 51px;
+    transform: scale(1.2);
     text-shadow: 0px 0px 10px var(--cor-primaria), 0px 0px 10px var(--cor-primaria);
 }
 
