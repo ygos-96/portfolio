@@ -1,0 +1,8 @@
+:root {
+    --font-code: "Source Code Pro", monoespaçado;
+    --font-poppins: "Poppins", sans-serif;
+    --font-system: system-ui;
+    --background: linear-gradient(to right, black, gray);
+    --cor-secundaria: rgb(9, 150, 160);
+    --cor-cinza-escuro: #1b1a1a;
+}

@@ -1,0 +1,59 @@
+#about-me {
+    height: 80vh;
+    background: black;
+    padding: 6rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#about-me .about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 7rem;
+}
+
+#about-me .about-me-container .about-me-img img {
+    width: 35rem;
+    height: 35rem;
+    background-image: none;
+    border-radius: 50%;
+    animation: animeFoto 3s infinite ease-in-out;
+}
+
+@keyframes animeFoto {
+    50% {
+        transform: translateY(-8%);
+    }
+}
+
+#about-me .about-me-container .about-me-description {
+    display: flex;
+    flex-direction: column;
+    width: min(70vw, 680px);
+}
+
+#about-me .about-me-container .about-me-description h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+#about-me .about-me-container .about-me-description h2 strong {
+    color: var(--cor-azul);
+}
+#about-me .about-me-container .about-me-description h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+#about-me .about-me-container .about-me-description p {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    max-width: 800px;
+    padding-top: 2rem;
+    letter-spacing: 0.1rem;
+}

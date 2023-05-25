@@ -1,0 +1,48 @@
+#skills {
+    height: 80vh;
+    background-color: var(--cor-cinza-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#skills h2 {
+    color: var(--cor-secundaria);
+    font-size: 2.4rem;
+    margin-bottom: 7.5rem;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+}
+
+#skills .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    width: min(80vw, 1150px);
+}
+
+#skills .logos .logos-slide {
+    display: inline-block;
+    animation: 33s carrossel linear infinite;
+}
+
+#skills .logos .logos-slide img {
+    height: 9rem;
+    margin-left: 17rem;
+}
+
+#skills .logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+@keyframes carrossel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

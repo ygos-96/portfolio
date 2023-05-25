@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ygor Gomes - Desenvolvedor Front-end</title>
+        <link
+            rel="shortcut icon"
+            href="src/image/icon/code.png"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Source+Code+Pro&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link rel="stylesheet" href="src/css/reset.css" />
+        <link rel="stylesheet" href="src/css/variables.css" />
+        <link rel="stylesheet" href="src/css/sections/header.css" />
+        <link rel="stylesheet" href="src/css/sections/about.css" />
+        <link rel="stylesheet" href="src/css/sections/skills.css" />
+        <link rel="stylesheet" href="src/css/sections/projects.css" />
+        <link rel="stylesheet" href="src/css/sections/footer.css" />
+        <link rel="stylesheet" href="src/css/style.css" />
+    </head>
+    <body>
+        <header id="cabecalho">
+            <nav class="navegacao">
+                <div class="logo">
+                    <h1>&lt;/&gt;</h1>
+                </div>
+                <div class="menu-lista">
+                    <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#about-me">Sobre</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                    </ul>
+                </div>
+                <div class="menu-mobile-icon">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </div>
+            </nav>
+            <div class="menu-mobile">
+                <ul>
+                    <li><a class="link" href="index.html">Inicio</a></li>
+                    <li><a class="link" href="#about-me">Sobre</a></li>
+                    <li><a class="link" href="#skills">Habilidades</a></li>
+                    <li><a class="link" href="#projects">Projetos</a></li>
+                    <li><a class="link" href="#baseboard">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section id="principal">
+                <div class="content-principal">
+                    <p>Olá, eu sou</p>
+                    <h1>&lt; Ygor<br />Gomes /&gt;</h1>
+                    <h2>Desenvolvedor Front-end</h2>
+                    <a href="src/document/CV.pdf" target="_blank">
+                        <button>Curriculo</button>
+                    </a>
+                </div>
+                <img src="src/image/gif-dev.gif" alt="imagem de perfil" />
+            </section>
+
+            <section id="about-me">
+                <div class="about-me-container">
+                    <div class="about-me-img">
+                        <img
+                            src="src/image/ygor-perfil.png"
+                            alt="Imagem Ygor perfil"
+                        />
+                    </div>
+                    <div class="about-me-description">
+                        <h2>Sobre <strong>Mim</strong></h2>
+                        <h3>Frontend Developer</h3>
+                        <p>
+                            Olá! Me chamo Ygor, e sou um desenvolvedor frontend
+                            em formação! Gosto MUITO da área de tecnologia, e
+                            tenho certeza que posso contribuir em qualquer time
+                            com as minhas habilidades.<br /><br />
+                            Estou sempre me desafiando com novos projetos e
+                            participando de comunidades de programação para
+                            buscar feedback de outros desenvolvedores e
+                            desenvolvedoras. Além de tentar ajudar essas pessoas
+                            com o que eu já aprendi. 😁 <br />
+                            <br />
+                            Ah, gosto muito de futebol, de jogos eletrônicos,
+                            filmes, séries, animes e outras nerdices. 🤓
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>&lt; Habilidades /&gt;</h2>
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img
+                            src="src/image/icon/html5.png"
+                            alt="logo da tecnologia HTML5"
+                        />
+                        <img
+                            src="src/image/icon/css3.png"
+                            alt="logo da tecnologia CSS3"
+                        />
+                        <img
+                            src="src/image/icon/javascript.png"
+                            alt="logo da linguagem Javascript"
+                        />
+                        <img
+                            src="src/image/icon/react.png"
+                            alt="logo da linguagem react"
+                        />
+                        <img
+                            src="src/image/icon/jest.png"
+                            alt="logo da tecnologia jest"
+                        />
+                        <img
+                            src="src/image/icon/git.png"
+                            alt="logo da ferramenta Git"
+                        />
+                        <img
+                            src="src/image/icon/github.png"
+                            alt="logo da plataforma Github"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>&lt; Projetos /&gt;</h2>
+                <div class="projects-container">
+                    <a
+                        href="https://ygos-96.github.io/api-github/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/github-api.jpg"
+                                alt="Imagem logo do github"
+                            />
+                            <div class="projects-description">
+                                <h3>GitHub API</h3>
+                                <p>
+                                    Sistema que consome uma api do github, com o
+                                    intuito de retornar dados do perfil
+                                    pesquisado. No projeto foi utilizado
+                                    HTML,CSS e JavaScript. Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://ygos-96.github.io/Selecao-personagens-marvel/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/select-marvel.jpg"
+                                alt="Imagem personagens da marvel"
+                            />
+                            <div class="projects-description">
+                                <h3>Seleção de Personagens Marvel</h3>
+                                <p>
+                                    Projeto que simula uma tela de escolha de
+                                    personagens no vídeo-game, com tema da
+                                    marvel, feito através das tecnologias
+                                    HTML,CSS e Javascript. Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://ygos-96.github.io/api-cartas/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/api-cartas.jpg"
+                                alt="Imagem de um baralho de cartas"
+                            />
+                            <div class="projects-description">
+                                <h3>API de Cartas</h3>
+                                <p>
+                                    Projeto que consome api de cartas, aonde a
+                                    cada clique no botão, ele trás uma carta
+                                    nova aleatória, desenvolvido com HTML,CSS e
+                                    JavaScript. Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://ygos-96.github.io/listagem-pokemon/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/Pokémon.jpg"
+                                alt="Imagem do anime Pokemon"
+                            />
+                            <div class="projects-description">
+                                <h3>Cards Pokemon</h3>
+                                <p>
+                                    Projeto desenvolvido em workshop, aonde
+                                    consiste em mostrar cards com informações de
+                                    pokémons. Além disso o projeto tem um
+                                    sistema de modo noturno bem legal,foi
+                                    desenvolvido com HTML, CSS e JavaScript,
+                                    Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://ygos-96.github.io/jogo-do-mario/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/super-mario.png"
+                                alt="Imagem do personagem Mario Bros"
+                            />
+                            <div class="projects-description">
+                                <h3>Mario Jump</h3>
+                                <p>
+                                    Jogo simples do personagem Mario Bros,
+                                    desenvolvido com HTML, CSS e JavaScript.
+                                    Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://ygos-96.github.io/agencia-xyz/"
+                        target="_blank"
+                    >
+                        <div class="projects-box">
+                            <img
+                                src="src/image/projects/landing-page.png"
+                                alt="landing page"
+                            />
+                            <div class="projects-description">
+                                <h3>Agência Xyz</h3>
+                                <p>
+                                    Landing Page responsiva, feito com HTML e
+                                    CSS. Clique para ver.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer id="baseboard">
+            <div class="baseboard-container-contact">
+                <div class="contact">
+                    <span class="material-symbols-outlined">mail</span>
+                    <h2>E-mail</h2>
+                    <p>Mande seu feedback!</p>
+                    <strong>ygs.contato@gmal.com</strong>
+                </div>
+                <div class="contact">
+                    <span class="material-symbols-outlined">call</span>
+                    <h2>WhatsApp</h2>
+                    <p>Me mande uma mensagem!</p>
+                    <strong>(11) 96180-2437</strong>
+                </div>
+                <div class="contact">
+                    <span class="material-symbols-outlined">location_on</span>
+                    <h2>Localização</h2>
+                    <p>Me encontre!</p>
+                    <strong>São Paulo, Brasil</strong>
+                </div>
+            </div>
+            <div class="social-media-container">
+                <div class="social-media">
+                    <a href="https://github.com/ygos-96" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/yg0rg_" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a
+                        href="https://www.linkedin.com/in/ygor-gs2006/"
+                        target="_blank"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="src/js/menu.js"></script>
+        <script
+            src="https://kit.fontawesome.com/f7a790efc7.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
